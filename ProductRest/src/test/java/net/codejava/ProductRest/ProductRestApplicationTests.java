@@ -7,7 +7,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 class ProductRestApplicationTests {
 
 	@Test
-	void contextLoads() {
+	void testCasues() {
+		add(new Product(1,"Cijp3333M",33333));
 	}
 
 }
